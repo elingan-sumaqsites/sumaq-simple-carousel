@@ -5,7 +5,7 @@
     "start": "vite",
     "dev": "vite",
     "build": "tsc && vite build",
-    "postbuild": "cp src/_carousel.scss dist",
+    "postbuild": "cp src/_carousel.scss lib",
     "serve": "vite preview"
   },
   "devDependencies": {
@@ -14,6 +14,7 @@
     "vite": "^2.6.4"
   },
   "files": [
-    "dist"
-  ]
+    "lib"
+  ],
+  "main": "lib/sumaq-simple-carousel.js"
 }
