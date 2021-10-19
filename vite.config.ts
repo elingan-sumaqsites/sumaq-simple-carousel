@@ -7,7 +7,7 @@ export default defineConfig({
     outDir: path.resolve(__dirname, 'lib'),
     lib: {
       entry: path.resolve(__dirname, 'src/carousel.ts'),
-      formats: ['umd'],
+      formats: ['iife'],
       name: 'SumaqSimpleCarousel',
       fileName: format => 'sumaq-simple-carousel.js',
     }
