@@ -1,5 +1,5 @@
 {
-  "name": "sumaq-simple-carousel",
+  "name": "@sumaq/simple-carousel",
   "version": "0.0.1",
   "scripts": {
     "start": "vite",
