@@ -16,5 +16,5 @@
   "files": [
     "lib"
   ],
-  "main": "lib/sumaq-simple-carousel.js"
+  "main": "lib/sumaq-simple-carousel.iife.js"
 }
