@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <h1>Simple Carousel</h1>
+    <div class="carousel">
+      <div class="items">
+        <div class="item active">
+          <figure>
+            <img src="https://picsum.photos/id/1005/800/500" alt="Lorem picsum" />
+          </figure>
+          <div class="caption">
+            <h3 class="title">Lorem ipsum 1</h3>
+            <p class="descrition">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="https://picsum.photos/id/1002/800/500" alt="Lorem picsum" />
+          </figure>
+          <div class="caption">
+            <h3 class="title">Lorem ipsum 2</h3>
+            <p class="descrition">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="https://picsum.photos/id/1008/800/500" alt="Lorem picsum" />
+          </figure>
+          <div class="caption">
+            <h3 class="title">Lorem ipsum 3</h3>
+            <p class="descrition">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="navigation">
+        <!-- Next and previous buttons -->
+        <span class="prev">
+          <svg
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 404.258 404.258"
+            style="enable-background: new 0 0 404.258 404.258"
+            xml:space="preserve"
+          >
+            <polygon points="289.927,18 265.927,0 114.331,202.129 265.927,404.258 289.927,386.258 151.831,202.129 " />
+          </svg>
+        </span>
+        <span class="next">
+          <svg
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 404.258 404.258"
+            style="enable-background: new 0 0 404.258 404.258"
+            xml:space="preserve"
+          >
+            <polygon points="138.331,0 114.331,18 252.427,202.129 114.331,386.258 138.331,404.258 289.927,202.129 " />
+          </svg>
+        </span>
+      </div>
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <h1>Simple Carousel (intervat: 7500)</h1>
+    <div class="carousel" data-interval="7500">
+      <div class="items">
+        <div class="item active">
+          <figure>
+            <img src="https://picsum.photos/id/1015/800/500" alt="Lorem picsum" />
+          </figure>
+          <div class="caption">
+            <h3 class="title">Lorem ipsum 1</h3>
+            <p class="descrition">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <figure>
+            <img src="https://picsum.photos/id/1011/800/500" alt="Lorem picsum" />
+          </figure>
+          <div class="caption">
+            <h3 class="title">Lorem ipsum 3</h3>
+            <p class="descrition">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="navigation">
+        <!-- Next and previous buttons -->
+        <span class="prev">
+          <svg
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 404.258 404.258"
+            style="enable-background: new 0 0 404.258 404.258"
+            xml:space="preserve"
+          >
+            <polygon points="289.927,18 265.927,0 114.331,202.129 265.927,404.258 289.927,386.258 151.831,202.129 " />
+          </svg>
+        </span>
+        <span class="next">
+          <svg
+            version="1.1"
+            id="Layer_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 404.258 404.258"
+            style="enable-background: new 0 0 404.258 404.258"
+            xml:space="preserve"
+          >
+            <polygon points="138.331,0 114.331,18 252.427,202.129 114.331,386.258 138.331,404.258 289.927,202.129 " />
+          </svg>
+        </span>
+      </div>
+      <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+
+    <hr />
+
+    <h1>Properties</h1>
+    <ul>
+      <li>data-interval: 5000 default</li>
+    </ul>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
