@@ -17,5 +17,5 @@
     "lib"
   ],
   "browser": "lib/simple-carousel.iife.js",
-  "main": "lib/simple-carousel.cjs.js"
+  "main": "lib/simple-carousel.es.js"
 }
