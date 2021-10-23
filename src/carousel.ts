@@ -84,3 +84,4 @@ function initSumaqSimpleCarousel() {
 }
 
 export { initSumaqSimpleCarousel }
+export default initSumaqSimpleCarousel

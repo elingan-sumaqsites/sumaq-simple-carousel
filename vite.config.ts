@@ -12,14 +12,16 @@ export default defineConfig({
       fileName: (format) => {
         // const name = format === '.umd'?'':'.auto'
         return `sumaq-simple-carousel.${format}.js`
-      }
+      },
+
     },
-    // rollupOptions: {
-    //   output: {
-    //     globals: {
-    //       window: 'Window',
-    //     }
-    //   }
-    // }
+    rollupOptions: {
+      output: {
+        exports: 'named',
+        // globals: {
+        //   window: 'Window',
+        // }
+      }
+    }
   }
 })
