@@ -17,5 +17,5 @@
     "lib"
   ],
   "browser": "lib/sumaq-simple-carousel.iife.js",
-  "main": "lib/sumaq-simple-carousel.umd.js"
+  "main": "lib/sumaq-simple-carousel.cjs.js"
 }
